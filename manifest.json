@@ -1,0 +1,14 @@
+{
+   "name": "POPS Auto Skip Ads",
+   "manifest_version": 3,
+   "version": "0.0.1",
+   "description": "Extension for skip ads on POPS",
+   "content_scripts": [{
+      "matches": [
+         "https://pops.vn/video*"
+      ],
+      "js": [
+         "main.js"
+      ]
+   }]
+}
