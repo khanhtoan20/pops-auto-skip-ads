@@ -1,0 +1,1 @@
+# pops-auto-skip-ads
